@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background: #f2f0f2;
+}
+
+
+input {
+	width: 85%;
+	height: 136px;
+	background: #f2f0f2;
+	font-size: 70px;
+	font-weight: bold;
+	border: 0;
+	margin-left: 40px;
+	cursor: text;
+}
+
+input:focus {
+	outline: none;
+}
+
+button{
+	border: 0;
+	background: #f2f0f2;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: all .5s ease-out;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+section{
+	display: inline-block;
+	width:33%;
+	color: grey;
+	font-weight: bold;
+	vertical-align: top;
+
+}
+
+li{
+	border: 0;
+	background: rgba(118,117,128,0.05);
+	margin: 5px 0;
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 25px;
+	cursor: pointer;
+
+}
+
+li:hover{
+	background: rgba(118,117,128,0.1);
+	color: red;
+}
+
+.first img{
+	border-radius: 30px;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+img[src*=favicon]{
+	width: 80px;
+	height: 80px;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover{
+	color: red;
+}
+
+li img{
+	margin-left: 10px;
+}
+
+.name{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.img {
+	width: 30%;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
